@@ -33,7 +33,7 @@ let data = [
     "img": "https://images.unsplash.com/photo-1627067227573-07bc616f46ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdpcmxzfGVufDB8fDB8fHww",
     "name": "Mehak Singh",
     "role": "QA Engineer",
-    "description": "Breaks things gracefully so the final product stays solid."
+    "description": "Breaks things gracefully so the final product "
   },
   {
   "img": "https://images.unsplash.com/photo-1568739253582-afa48fbcea47?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdpcmxzfGVufDB8fDB8fHww",
