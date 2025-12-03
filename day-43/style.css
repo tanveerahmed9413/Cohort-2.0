@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  align-content: center;
+  justify-content: center;
+}
+
+.harmonium-box {
+  display: flex;
+  gap: 10px;
+}
+.box {
+    background-color: black;
+  height: 200px;
+  width: 30px;
+  cursor: pointer;
+  display: block;
+  font: 700;
+  font-size: 25px;
+  text-align: center;
+  align-content: center;
+  color: red;
+
+}
+
+.box:nth-child(even){
+    background-color: rebeccapurple;
+
+}
