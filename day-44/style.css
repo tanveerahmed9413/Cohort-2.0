@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+body{
+    background-color: rgb(254, 253, 253);
+    /* padding: 20px; */
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+section{
+    height: 100%;
+    width: 350px;
+    background-color: rgb(10, 2, 2);
+    border-radius: 10px;
+    margin: auto;
+    overflow-y: auto;
+    /* padding: 10px 0; */
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+
+    scrollbar-width: none;
+
+    
+}
+
+/* section::-webkit-scrollbar{
+    display: none;
+} */
+.reel{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  
+  
+  scroll-snap-align: start;
+}
+.reel .main-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    
+}
+.reel .bottom{
+    height: 20%;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    
+}
+.reel .bottom .user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+.reel .bottom .user img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.reel .bottom .user button{
+    font-size: 13px;
+    padding: 5px 8px;
+    
+}
+.reel  .caption{
+    padding: 10px 20px;
+    font: 17px;
+    color: #fff;
+}
+.reel .media{
+    position: absolute;
+    right: 20px;
+    bottom: 80px;
+    font-size: 22px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    
+}
+.reel .media p{
+    font-size: 16px;
+}
+ .like{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.like h4{
+pointer-events: none;
+}
+
+.like p{
+    pointer-events: none;
+}
+.like .love{
+    color: red;
+}
+
+
+.reel .mute{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.reel .mute i{
+    cursor: pointer;
+}
