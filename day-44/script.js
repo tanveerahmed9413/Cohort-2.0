@@ -55,61 +55,6 @@ const reelsData = [
     isLiked: true,
     video: "./video/video5.mp4"
   },
-  {
-    userName: "coding_with_raj",
-    userProfile: "./userImage/img6.avif",
-    caption: "Eat. Sleep. Code. Repeat 👨‍💻",
-    likeCount: 800,
-    commentCount: 43,
-    shareCount: 25,
-    isFollowed: false,
-    isLiked: false,
-    video: "./video/video6.mp4"
-  },
-  {
-    userName: "dance_vibes",
-    userProfile: "./userImage/img7.avif",
-    caption: "Dance is the hidden language of the soul 💃",
-    likeCount: 6700,
-    commentCount: 529,
-    shareCount: 260,
-    isFollowed: true,
-    isLiked: true,
-    video: "./video/video7.mp4"
-  },
-  {
-    userName: "tech_guru",
-    userProfile: "./userImage/img8.avif",
-    caption: "New gadget review dropping soon!",
-    likeCount: 1200,
-    commentCount: 87,
-    shareCount: 40,
-    isFollowed: false,
-    isLiked: false,
-    video: "./video/video8.mp4"
-  },
-  {
-    userName: "nature_lens",
-    userProfile: "./userImage/img9.avif",
-    caption: "Where the trees whisper peace 🍃",
-    likeCount: 5400,
-    commentCount: 230,
-    shareCount: 150,
-    isFollowed: true,
-    isLiked: false,
-    video: "./video/video9.mp4"
-  },
-  {
-    userName: "street_art",
-    userProfile: "./userImage/img10.avif",
-    caption: "Art is freedom 🎨",
-    likeCount: 3500,
-    commentCount: 180,
-    shareCount: 90,
-    isFollowed: false,
-    isLiked: true,
-    video: "./video/video10.mp4"
-  }
 ];
 
 
