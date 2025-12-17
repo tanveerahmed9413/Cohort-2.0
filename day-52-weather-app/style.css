@@ -1,0 +1,96 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Page center */
+body{
+  height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main card */
+main{
+  width: 320px;
+  background: #ffffff;
+  padding: 25px 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+main h1{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input */
+main input{
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+main input:focus{
+  border-color: #6c63ff;
+}
+
+/* Button */
+main button{
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #6c63ff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+main button:hover{
+  background: #5848e5;
+}
+
+/* Output box */
+.outputBox{
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #f4f6ff;
+}
+
+/* Temperature */
+.temp{
+  font-size: 42px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Description */
+.description{
+  font-size: 16px;
+  color: #555;
+  margin: 6px 0;
+  text-transform: capitalize;
+}
+
+/* City */
+.city{
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+}
